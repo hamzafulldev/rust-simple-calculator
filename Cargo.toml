@@ -1,0 +1,19 @@
+[package]
+name = "rust-simple-calculator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Hamza Younas <hamzadevfull@gmail.com>"]
+description = "A simple calculator tool that handles basic arithmetic operations"
+license = "MIT"
+keywords = ["calculator", "arithmetic", "cli"]
+categories = ["command-line-utilities"]
+
+[[bin]]
+name = "calculator"
+path = "src/main.rs"
+
+[lib]
+name = "rust_simple_calculator"
+path = "src/lib.rs"
+
+[dependencies]
